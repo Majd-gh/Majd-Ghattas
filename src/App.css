@@ -1,0 +1,26 @@
+.app{
+  margin: 20px auto;
+  background-color: gray;
+  width: 500px;
+  border-radius: 20px;
+}
+.header{
+  font-size: 30px;
+  font-weight: 300;
+  padding: 20px;
+}
+
+.filter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 10px 20px 10px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.table{
+  margin: 10px 10px 20px 10px;
+  width: 100%;
+  line-height: 30px;
+}
