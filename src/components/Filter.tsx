@@ -1,5 +1,7 @@
+import * as React from "react";
+
 type filterProps={
-    setLevel: ()=>{}
+    setLevel: React.Dispatch<React.SetStateAction<number>>
 }
 const Filter = ({setLevel} : filterProps) => {
     return (
